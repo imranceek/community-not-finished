@@ -1,0 +1,192 @@
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+*,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    height: 100%;
+    font-size: 62.5%;
+  }
+
+  body{
+    font-family: 'poppins', sans-serif;
+    color: #242A45;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  ul , ol {
+    list-style: none;
+  }
+
+  img{
+    display: flex;
+    object-fit: cover;
+  }
+  
+  a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'poppins' , sans-serif;
+  }
+
+  .container {
+    max-width: 1280px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .header {
+    padding: 30px 0px  ;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-logo {
+  }
+  .nav-list {
+    display: flex;
+    gap: 32px;
+    font-size: 1.6rem;
+    align-items: center;
+  }
+  .nav-item {
+  }
+  .nav-link {
+    color: #394149;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-transform: capitalize;
+  }
+  .header-button {
+    padding: 1.8rem 3.2rem;
+    background-color: rgba(245, 138, 7, 0.10);
+    border-radius: 3.1rem;
+    color: #F58A07;
+  }
+
+
+
+  .footer {
+    background: #063255;
+    padding-top: 8.2rem;
+    padding-bottom: 8rem;
+    color: #fff;
+  }
+  .footer a {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1.6rem;
+  }
+  .footer h3{
+    margin: 3.2rem 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.4rem;
+    letter-spacing: -1.08px;
+    width: 351px;
+  }
+  .footer h5{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 2.4rem;
+  }
+  .footer input{
+    padding: 1.8rem 18.8rem 1.7rem 3.2rem;
+    border-radius: 3.1rem;
+    border: none;
+    color: #9C9C9C;
+    font-family: 'Inter' 'poppins';
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 34.2rem;
+    
+
+  }
+  .footer-main {
+  }
+  .footer-list {
+    justify-content: space-between;
+    display: flex;
+  }
+  .footer-button{
+    margin-top: 3.3rem;
+    padding: 1.8rem 3.2rem;
+    background-color: #F58A07;
+    border-radius: 3.1rem;
+  }
+  .footer-icon{
+    margin-right:  1.5rem;
+  }
+  .footer-bottom {
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+
+  }
+  .footer-bottom h6{
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .fb-list {
+    display: flex;
+    gap: 32px;
+  }
